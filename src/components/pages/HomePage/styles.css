@@ -1,0 +1,16 @@
+.furniture-page{
+    padding: 10px;
+}
+
+.furniture-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.furniture-title{
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #ddd;
+}

@@ -3,6 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBfNlkcHpdESJGdmCh5lAhbatghPrgLRaA",
+  authDomain: "assignment-3-9e970.firebaseapp.com",
+  projectId: "assignment-3-9e970",
+  storageBucket: "assignment-3-9e970.appspot.com",
+  messagingSenderId: "342907249067",
+  appId: "1:342907249067:web:06dd3d60aac890e4a732ee"
+};
+
+const app = initializeApp(firebaseConfig);
 
 ReactDOM.render(
   <React.StrictMode>

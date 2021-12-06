@@ -1,0 +1,33 @@
+.furniture{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    box-shadow: 0 2px 7px #dfdfdf;
+    background-color: #fafafa;
+}
+
+.furniture-photo {
+    width: 300px;
+    height: 20px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.furniture-name{
+    font-size: 1.3rem;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.furniture-section{
+    font-weight: bold;
+}
+
+.furniture-section, .furniture-price{
+    color: gray;
+    padding: 5px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
